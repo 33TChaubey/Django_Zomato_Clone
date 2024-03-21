@@ -50,3 +50,10 @@ A delectable web application that replicates the core features of the popular fo
 ##  License 📄
 
 - **Licence**:This project is licensed under the MIT License.
+
+<div align="center">
+  <h3>Let's satisfy your cravings together! 🍕🍔🌮</h3>
+  <a href="https://github.com/your-username/zomato-clone/issues/new">Report an Issue</a> | <a href="https://github.com/your-username/zomato-clone/discussions">Join the Discussion</a>
+</div>
+
+

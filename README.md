@@ -36,4 +36,26 @@ A delectable web application that replicates the core features of the popular fo
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/zomato-clone.git
+   [git clone https://github.com/your-username/zomato-clone.git](https://github.com/33TChaubey/Django_Zomato_Clone.git)https://github.com/33TChaubey/Django_Zomato_Clone.git
+
+2. **Install dependencies::**
+
+```bash
+pip install -r requirements.txt
+
+
+3. **Run your server::**
+
+```bash
+python manage.py runserver
+
+
+##Contributing 🤝
+
+- **we welcome contributions from the community! Please follow the contribution guidelines outlined in the CONTRIBUTING.md file.
+
+- **License 📄
+- **This project is licensed under the MIT License.
+
+
+<div align="center"> <h3>Let's satisfy your cravings together! 🍕🍔🌮</h3> <a href="https://github.com/your-username/zomato-clone/issues/new">Report an Issue</a> | <a href="https://github.com/your-username/zomato-clone/discussions">Join the Discussion</a> </div> ```

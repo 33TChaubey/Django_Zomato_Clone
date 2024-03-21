@@ -36,12 +36,12 @@ A delectable web application that replicates the core features of the popular fo
 1. **Clone the repository:**
 
    ```bash
-   [git clone https://github.com/your-username/zomato-clone.git](https://github.com/33TChaubey/Django_Zomato_Clone.git)https://github.com/33TChaubey/Django_Zomato_Clone.git```
+   https://github.com/33TChaubey/Django_Zomato_Clone.git
 
 2. **Install dependencies::**
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 
 3. **Run your server::**
@@ -58,4 +58,4 @@ python manage.py runserver
 - **This project is licensed under the MIT License.
 
 
-<div align="center"> <h3>Let's satisfy your cravings together! 🍕🍔🌮</h3> <a href="https://github.com/your-username/zomato-clone/issues/new">Report an Issue</a> | <a href="https://github.com/your-username/zomato-clone/discussions">Join the Discussion</a> </div> ```
+<div align="center"> <h3>Let's satisfy your cravings together! 🍕🍔🌮</h3> <a href="https://github.com/your-username/zomato-clone/issues/new">Report an Issue</a> | <a href="https://github.com/your-username/zomato-clone/discussions">Join the Discussion</a> </div>

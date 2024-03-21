@@ -38,7 +38,7 @@ A delectable web application that replicates the core features of the popular fo
    ```bash
    https://github.com/33TChaubey/Django_Zomato_Clone.git
 
-2. **Install dependencies::**
+2. **Install dependencies:**
 
 ```bash
 pip install -r requirements.txt

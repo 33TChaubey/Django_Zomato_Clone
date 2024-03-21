@@ -1,0 +1,73 @@
+{% extends "food/base.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    {% block body %}
+
+    {% for item in itemlist %}
+
+        <div class="row mb-5 ">
+            <div class="offset-md-2 col-md-3">
+                <img src="{{ item.item_image }}" alt="" class="card" height="135px" width="230px">
+            </div>
+            <div class="col-md-4">
+                <h3 style="font-size:1.5rem ">{{ item.item_name }}</h3>
+                <h5 style="font-style: italic; font-size:1rem">{{ item.item_desc | truncatewords:6 }}</h5>
+                <h6>${{ item.item_price }}</h6>
+                <h6 style="font-style:italic; font-weight: 200;">rest owner: {{ item.rest_owner }}</h6>
+
+                <h6 style="font-style:italic; font-weight: 200;">added by: {{ item.added_by }}</h6>
+            </div>
+            {% if user.is_authenticated %}
+                <div class="col-md-3 ">
+                    <a href="{% url 'food:detail' item.id %}" style="width: 100px;" class="btn btn-success">
+                        Detail
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+
+        
+
+
+    {% endfor %}
+    {% if itemlist.has_previous %}
+
+    <a href="?page=1">
+        First
+    </a>
+
+    <a href="?page={{ itemlist.previous_page_number }}">
+        Previous
+    </a>
+
+{% endif %}
+
+<!-- current page -->
+Page: {{ itemlist.number }} of {{ itemlist.paginator.num_pages }}
+
+{% if itemlist.has_next %}
+
+    <a href="?page={{ itemlist.next_page_number }}">
+        Next
+    </a>
+
+    <a href="?page={{ itemlist.paginator.num_pages }}">
+        Last
+    </a>
+
+{% endif %}
+
+<!-- end code for pagination -->
+    {% endblock %}
+    
+    
+</body>
+</html>

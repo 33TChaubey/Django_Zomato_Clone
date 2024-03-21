@@ -1,0 +1,40 @@
+{% extends "food/base.html" %}
+
+
+{% block body %}
+  
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <div class="card">
+                <div class="card-header text-white bg-info">
+                    <div class="card-title">
+                        Sign UP
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form action="" method="POST">
+                        {% csrf_token %}
+                        <label>Username: </label><br>
+                        {{ form.username }}
+                        <br><label>Email: </label><br>
+                        {{ form.email }}
+                        <br><label>First Name: </label><br>
+                        {{ form.first_name }}
+                        <br><label>Last Name: </label><br>
+                        {{ form.last_name }}
+                        <br><label>Password: </label><br>
+                        {{ form.password1 }}
+                        <br><label>Confirm password: </label><br>
+                        {{ form.password2 }}
+
+                        <br><button type="submit" class="btn btn-success btn-sm">Next</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

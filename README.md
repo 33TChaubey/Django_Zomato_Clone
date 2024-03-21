@@ -43,8 +43,8 @@ A delectable web application that replicates the core features of the popular fo
   ```bash
   pip install -r requirements.txt
 
-##Contributing 🤝
+## Contributing 🤝
 - **We welcome contributions from the community! Please follow the contribution guidelines outlined in the CONTRIBUTING.md file.
 
-##License 📄
+## License 📄
 - **This project is licensed under the MIT License.

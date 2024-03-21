@@ -40,6 +40,11 @@ A delectable web application that replicates the core features of the popular fo
 
 2. **Install dependencies:**
 
-  ```bash
-  pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
+##Contributing 🤝
+- **We welcome contributions from the community! Please follow the contribution guidelines outlined in the CONTRIBUTING.md file.
+
+##License 📄
+- **This project is licensed under the MIT License.
